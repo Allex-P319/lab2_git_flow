@@ -19,7 +19,7 @@ def divide(a, b):
     return a / b
 
 if __name__ == "__main__":
-    print("Simple calculator")
+    print("Welcome to my calculator")
     print(f"2 + 3 = {add(2, 3)}")
     print(f"2 * 3 = {multiply(2, 3)}")
     result = divide(6, 2)
