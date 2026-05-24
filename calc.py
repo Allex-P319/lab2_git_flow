@@ -1,12 +1,15 @@
 def add(a, b):
     return a + b
 
+
 def subtract(a, b):
     return a - b
+
 
 def multiply(a, b):
     """Return the product of a and b."""
     return a * b
+
 
 def divide(a, b):
     """
@@ -17,6 +20,7 @@ def divide(a, b):
         print("Error: division by zero")
         return None
     return a / b
+
 
 if __name__ == "__main__":
     print("=== SIMPLE CALCULATOR ===")
