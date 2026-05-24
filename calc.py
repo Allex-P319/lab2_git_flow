@@ -5,10 +5,16 @@ def subtract(a, b):
     return a - b
 
 def multiply(a, b):
+    """Return the product of a and b."""
     return a * b
 
 def divide(a, b):
+    """
+    Return division of a by b.
+    If b is zero, print error and return None.
+    """
     if b == 0:
+        print("Error: division by zero")
         return None
     return a / b
 
